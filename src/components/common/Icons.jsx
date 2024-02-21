@@ -122,3 +122,23 @@ export const MenuIcon = () => {
     </svg>
   );
 };
+export const CrossIcon = () => {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="12" cy="12" r="12" fill="#E97219" />
+      <path
+        d="M17 7L6 17M6 7L17 17"
+        stroke="white"
+        stroke-width="0.807692"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};

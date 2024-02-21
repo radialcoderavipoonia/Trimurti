@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Facebook, MenuIcon, Telegram, Youtube } from "./common/Icons";
+import { Facebook, MenuIcon, CrossIcon, Telegram, Youtube } from "./common/Icons";
 import logo from "../assets/images/navbar/logo.png";
 
 const NavBar = () => {
@@ -85,7 +85,7 @@ const NavBar = () => {
             </li>
           </ul>
           <span className="d-lg-none d-block" onClick={toggleMenu}>
-            <MenuIcon />
+            {isMenuOpen ? <CrossIcon /> : <MenuIcon />}
           </span>
           <div className="d-flex gap-2 align-items-center">
             <a

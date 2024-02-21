@@ -8,7 +8,7 @@ import right_piller from "../assets/images/background/side_pillers.png";
 const Hero = () => {
   return (
     <>
-      <div className="bg_papaya_orange">
+      <div className="bg_papaya_orange ">
         <div className="bg_hero">
           <div className="position-relative overflow-hidden">
             <img

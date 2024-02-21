@@ -142,6 +142,9 @@ body {
   top: 19%;
   right: 0;
 }
+.vh_100{
+  height: 100vh;
+}
 
 @media (min-width: 1200px) and (max-width: 1920px) {
   .max_w_1069 {

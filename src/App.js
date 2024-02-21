@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="bg_papaya_orange">
-        <div className="max_w_1920 mx-auto">
+        <div className="max_w_1920 mx-auto vh_100">
           <NavBar />
           <Hero />
         </div>
