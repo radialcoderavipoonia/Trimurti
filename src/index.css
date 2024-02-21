@@ -77,6 +77,9 @@ body {
   height: 56px;
   margin-top: 44px;
 }
+.register_button:hover{
+  transform: scale(1.1);
+}
 .main_para {
   max-width: 799px;
 }

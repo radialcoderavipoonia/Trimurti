@@ -34,7 +34,7 @@ const Hero = () => {
                 Trimurti Ashram in Rishikesh offers the finest spiritual tool
                 available anywhere on Earth.
               </p>
-              <button className="register_button fs_sm d-flex justify-content-center align-items-center border-0 bg-transparent fw-normal mb-0">
+              <button className="register_button transition_03 fs_sm d-flex justify-content-center align-items-center border-0 bg-transparent fw-normal mb-0">
                 Register Now
               </button>
             </div>
