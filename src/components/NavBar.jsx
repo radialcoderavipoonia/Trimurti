@@ -41,7 +41,7 @@ const NavBar = () => {
           </ul>
           <ul
             className={`d-lg-none position-absolute bg-white links_position mb-0 ps-3 transition_03 ${
-              isMenuOpen ? "opacity-1" : "opacity-0"
+              isMenuOpen ? "opacity-1" : "opacity-0 top-0 "
             }`}
           >
             <li onClick={toggleMenu}>

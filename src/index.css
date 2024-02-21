@@ -11,7 +11,6 @@ body {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 100vh;
 }
 .bg_nav {
   background-image: url("../src/assets/images/background/navbar.webp");
@@ -64,9 +63,9 @@ body {
 .nav_links:hover {
   opacity: 1;
 }
-
-.hero_content_height {
-  height: 80vh;
+.hero_content_padding {
+  padding-top: 301px;
+  padding-bottom: 190px;
 }
 .register_button {
   background-image: url("../src/assets/images/background/button.webp");
@@ -120,11 +119,6 @@ body {
     margin: 0 auto;
   }
 }
-@media (max-width: 1200.98px) {
-  .hero_content_height {
-    height: 84vh;
-  }
-}
 @media (max-width: 991.98px) {
   .social_icons svg {
     width: 24px;
@@ -133,20 +127,19 @@ body {
   .py_custom {
     padding: 9px 0;
   }
-  .bg_hero {
-    height: 100vh;
-  }
-  .hero_content_height {
-    height: 87vh;
-  }
+
   .logo_position {
     top: -120%;
   }
+  .hero_content_padding {
+    padding-top: 210px;
+    padding-bottom: 100px;
+  }
+  .bg_hero {
+    background-size: cover;
+  }
 }
 @media (max-width: 767.98px) {
-  .hero_content_height {
-    height: 74vh;
-  }
   .heading_design svg {
     width: 73px;
   }
@@ -156,15 +149,21 @@ body {
   .register_button {
     margin-top: 36px;
   }
+  .hero_content_padding {
+    padding-top: 240px;
+    padding-bottom: 160px;
+  }
 }
 
 @media (max-width: 575.98px) {
-  .hero_content_height {
-    height: 92vh;
+  .hero_content_padding {
+    padding-top: 143px;
+    padding-bottom: 133px;
   }
   .bg_hero {
-  background-image: url("../src/assets/images/background/hero_sm.webp");
-}
+    background-image: url("../src/assets/images/background/hero_sm.webp");
+    background-size: 100% 100%;
+  }
   .logo_image {
     width: 60px;
     height: 76px;
