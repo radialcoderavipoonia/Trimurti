@@ -1,13 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Facebook, MenuIcon, Telegram, Youtube } from "./common/Icons";
 import logo from "../assets/images/navbar/logo.png";
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const menuRef = useRef(null);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <div className="container custom_container pt-sm-5 pt-4  pb-4">
@@ -40,6 +54,7 @@ const NavBar = () => {
             </li>
           </ul>
           <ul
+            ref={menuRef}
             className={`d-lg-none position-absolute bg-white links_position mb-0 ps-3 transition_03 ${
               isMenuOpen ? "opacity-1" : "opacity-0 top-0 "
             }`}

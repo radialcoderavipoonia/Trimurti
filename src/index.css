@@ -5,9 +5,10 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #e97219;
 }
 .bg_hero {
-  background-image: url("../src/assets/images/background/hero.webp");
+  background-image: url("../src/assets/images/background/hero.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -26,6 +27,10 @@ body {
   --dark-yellow: #fad300;
   --dark-gray: #202020;
 }
+.max_w_1920 {
+  max-width: 1920px;
+}
+
 .fs_sm {
   font-size: var(--fs-sm);
 }
@@ -105,9 +110,11 @@ body {
 }
 .links_position {
   left: -20px;
-  top: 45px;
+  top: 50px;
   width: 150px;
-  height: 80px;
+  padding-top: 20px;
+  border-radius: 14px;
+  height: 115px;
 }
 .hero_tablet_bg {
   width: 100%;
@@ -224,7 +231,7 @@ body {
   .hero_tablet_flowers {
     height: 145px;
   }
-  .hero_tablet_bg{
+  .hero_tablet_bg {
     height: 120%;
   }
   .left_pillers {
@@ -235,10 +242,9 @@ body {
   }
 }
 
-
 @media (max-width: 575.98px) {
   .hero_content_padding {
-    padding-top: 143px;
+    padding-top: 251px;
     padding-bottom: 133px;
   }
   .bg_hero {

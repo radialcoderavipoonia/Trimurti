@@ -7,8 +7,10 @@ function App() {
   return (
     <>
       <div className="bg_papaya_orange">
-        <NavBar />
-        <Hero />
+        <div className="max_w_1920 mx-auto">
+          <NavBar />
+          <Hero />
+        </div>
       </div>
     </>
   );
