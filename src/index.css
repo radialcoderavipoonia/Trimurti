@@ -7,8 +7,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .bg_hero {
-  background-image: url("../src/assets/images/background/hero.webp");
-  background-position: center;
+  background-image: url("../src/assets/images/background/hero.png");
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 100vh;
@@ -77,7 +77,7 @@ body {
   height: 56px;
   margin-top: 44px;
 }
-.register_button:hover{
+.register_button:hover {
   transform: scale(1.1);
 }
 .main_para {
@@ -95,6 +95,21 @@ body {
 .py_custom {
   padding: 14px 0;
 }
+.logo_image {
+  width: 100px;
+  height: 126px;
+}
+.logo_position {
+  left: 50%;
+  transform: translateX(-50%);
+  top: -70%;
+}
+.links_position {
+  left: -20px;
+  top: 45px;
+  width: 150px;
+  height: 80px;
+}
 @media (min-width: 1200px) and (max-width: 1920px) {
   .max_w_1069 {
     max-width: 1069px !important;
@@ -107,7 +122,7 @@ body {
 }
 @media (max-width: 1200.98px) {
   .hero_content_height {
-    height: 74vh;
+    height: 84vh;
   }
 }
 @media (max-width: 991.98px) {
@@ -122,12 +137,15 @@ body {
     height: 100vh;
   }
   .hero_content_height {
-    height: 77vh;
+    height: 87vh;
+  }
+  .logo_position {
+    top: -120%;
   }
 }
 @media (max-width: 767.98px) {
   .hero_content_height {
-    height: 84vh;
+    height: 74vh;
   }
   .heading_design svg {
     width: 73px;
@@ -142,7 +160,14 @@ body {
 
 @media (max-width: 575.98px) {
   .hero_content_height {
-    height: 75vh;
+    height: 92vh;
+  }
+  .logo_image {
+    width: 60px;
+    height: 76px;
+  }
+  .logo_position {
+    top: -40%;
   }
 }
 

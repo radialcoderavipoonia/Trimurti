@@ -1,17 +1,13 @@
 import React from "react";
 import { TriputiLeftDesign, TriputiRightDesign } from "./common/Icons";
-import NavBar from "./NavBar";
 
 const Hero = () => {
   return (
     <>
-      <div className="bg_papaya_orange pt-4">
-        <div className="bg_hero pt-4">
+      <div className="bg_papaya_orange">
+        <div className="bg_hero">
           <div className="container custom_container ">
-            <div className="pt-1 mb-5">
-              <NavBar />
-            </div>
-            <div className="max_w_1069 mx-auto d-flex justify-content-lg-center justify-content-md-end justify-content-sm-center justify-content-end align-items-center hero_content_height flex-column px-sm-0 px-3">
+            <div className="max_w_1069 mx-auto d-flex justify-content-end align-items-center hero_content_height flex-column px-sm-0 px-3">
               <div className="d-flex align-items-center">
                 <span className="heading_design">
                   <TriputiLeftDesign />
@@ -46,3 +42,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
