@@ -115,6 +115,7 @@ body {
   padding-top: 20px;
   border-radius: 14px;
   height: 115px;
+  z-index: 111;
 }
 .hero_tablet_bg {
   width: 100%;
