@@ -7,14 +7,14 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .bg_hero {
-  background-image: url("../src/assets/images/background/hero.png");
+  background-image: url("../src/assets/images/background/hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 100vh;
 }
 .bg_nav {
-  background-image: url("../src/assets/images/background/navbar.png");
+  background-image: url("../src/assets/images/background/navbar.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -69,7 +69,7 @@ body {
   height: 80vh;
 }
 .register_button {
-  background-image: url("../src/assets/images/background/button.png");
+  background-image: url("../src/assets/images/background/button.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,7 +102,7 @@ body {
     margin: 0 auto;
   }
 }
-@media (max-width: 1023.98px) {
+@media (max-width: 1200.98px) {
   .hero_content_height {
     height: 74vh;
   }

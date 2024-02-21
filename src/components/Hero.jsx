@@ -1,7 +1,5 @@
 import React from "react";
 import { TriputiLeftDesign, TriputiRightDesign } from "./common/Icons";
-import leftFrame from "../assets/images/hero/side_frames.png";
-import rightFrame from "../assets/images/hero/side_frames.png";
 import NavBar from "./NavBar";
 
 const Hero = () => {
@@ -10,7 +8,7 @@ const Hero = () => {
       <div className="bg_papaya_orange pt-4">
         <div className="bg_hero pt-4">
           <div className="container custom_container ">
-            <div className="pt-3 mb-5">
+            <div className="pt-1 mb-5">
               <NavBar />
             </div>
             <div className="max_w_1069 mx-auto d-flex justify-content-lg-center justify-content-md-end justify-content-sm-center justify-content-end align-items-center hero_content_height flex-column px-sm-0 px-3">
